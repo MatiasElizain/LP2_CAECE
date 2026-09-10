@@ -16,5 +16,5 @@ for dia in diasSemana:
 
 
 # Agregar una nueva ciudad a la lista de dias
-diasSemana.append("Quilmes")
+diasSemana.append("Sabado")
 print(f"Lista de dias con la ciudad agregada: {diasSemana}")
