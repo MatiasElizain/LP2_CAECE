@@ -36,9 +36,15 @@ print("=" * 80)
 
 # Generar un nuevo listado transformando todo a letras mayusculas
 
-nombresMayusculas = []
+todo_mayusculas = lambda nombre: nombre.upper()
+
+nombresMayusculas = map(todo_mayusculas, nombresLista)
+
+print("Todos los nombres en mayusculas:", list(nombresMayusculas))
+
+""" nombresMayusculas = []
 
 for nombre in nombresLista:
     nombresMayusculas.append(nombre.upper())
 
-print(nombresMayusculas)
+print(nombresMayusculas) """
